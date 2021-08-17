@@ -1,0 +1,114 @@
+.header {
+  background-color: $dark-red;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 88px;
+}
+
+.logo {
+  width: 80px;
+  height: 48px;
+  display: block;
+ 
+}
+.Nav_option{
+  display: flex;
+  justify-content: space-between;
+
+  li {
+    margin-left: 64px;
+  }
+
+  a {
+  color: $white;
+  display: block;
+  font-size: $font-size-md;
+  line-height: $line-height-md;
+    }
+}
+
+ 
+
+.footer {
+  background-color: $dark-red;
+  padding-top: 32px;
+  padding-bottom: 39px;
+
+  a, p, span {
+    color: $white;
+  }
+}
+
+.footer-container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.footer_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.footer_nav-options {
+    display: flex;
+    align-items: center;
+
+    li {
+      margin-right: 48px;
+    }
+
+    a {
+      font-size: $font-size-s;
+      line-height: $line-height-s;
+    }
+  }
+
+  .socialMedia {
+    display: flex;
+    li {
+      margin-left: 32px;
+    }
+  }
+
+  .contact {
+    padding: 24px 0;
+    border-bottom: $white 1px solid;
+    margin-bottom: 33px;
+
+    a {
+      font-size: $font-size-xxl;
+      line-height: $font-size-xxl;
+    }
+
+    img {
+      display: inline-block;
+      width: 36px;
+      height: 36px;
+      margin-right: 22px;
+      vertical-align: middle;
+    }
+  }
+
+  .legality {
+
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+    }
+    a {
+      margin-left: 48px;
+      font-size: $font-size-xs;
+      line-height: $line-height-xs;
+    }
+
+    p {
+      font-size: $font-size-s;
+      line-height: $line-height-s;
+    }
+
+  }

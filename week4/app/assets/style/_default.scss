@@ -1,0 +1,22 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height:auto;
+}
+
+body {
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+  &:hover {
+    font-style:italic;
+    color: orange; 
+  }
+}

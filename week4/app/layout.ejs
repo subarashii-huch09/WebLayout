@@ -6,18 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
-  <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="../assets/style/all.css">
 </head>
 
 <body>
   <header class="header">
-    這是 header
+<div class="logo">
+  <a href=""><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/logo.png?raw=true" alt="logo"></a>
+</div>
+<ul class="Nav_option">
+  <li><a href="#">系列鏡框</a></li>
+  <li><a href="#">門市據點</a></li>
+  <li><a href="#">部落格</a></li>
+  <li><a href="#">常見問題</a></li>
+</ul>
   </header>
 
   <%- contents %>
 
   <footer class="footer">
-    footer
+    <div class ="footer-container">
+   <div class="footer_nav">
+     <ul class="footer_nav-options">
+       <li><a href="#">首頁</a></li>
+       <li><a href="#">系列鏡框</a></li>
+       <li><a href="#">門市據點</a></li>
+       <li><a href="#">部落格</a></li>
+       <li><a href="#">常見問題</a></li>
+     </ul>
+
+     <ul class="socialMedia">
+       <li><a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8d1ef3b63951b7f749edd130ff66e4d4856a3df2/week3/icon-fb.svg" alt="icon-facebook"></a></li>
+       <li><a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8d1ef3b63951b7f749edd130ff66e4d4856a3df2/week3/icon-ig.svg" alt="icon-instagram"></a></li>
+       <li><a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8d1ef3b63951b7f749edd130ff66e4d4856a3df2/week3/icon-line.svg" alt="icon-line"></a></li>
+     </ul>
+   </div>
+
+   <div class="contact">
+    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8d1ef3b63951b7f749edd130ff66e4d4856a3df2/week3/icon-phone.svg" alt="icon-phone">
+    <a href="tel:0800-000-000">0800-000-000</a>
+    <br>
+    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8d1ef3b63951b7f749edd130ff66e4d4856a3df2/week3/icon-mail.svg" alt="icon-mail">
+    <a href="mailto:glasses@business.com">glasses@business.com</a>
+   </div>
+
+   <div class="legality">
+     <p>Copyright © 2020 Glasses.All rights reserved.</p>
+     <ul class="terms">
+       <li><a href="#">隱私權政策</a></li>
+       <li><a href="#">服務條款</a></li>
+     </ul>
+   </div>
+   </div>
   </footer>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
