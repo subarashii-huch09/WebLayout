@@ -1,0 +1,35 @@
+.faq-container {
+  width:1100px ;
+  margin: 0 auto;
+}
+.faq-sub-header {
+  margin-top: 96px;
+  font-size: $font-size-extra-l;
+  line-height: $font-size-extra-l;
+  font-weight: $fw-bold;
+  padding-left: 16px;
+  border-left: 8px solid #9F1213;
+
+} 
+
+.question-section h3 {
+  margin-top: 60px;
+  font-weight: $fw-bold;
+  font-size: $font-size-xl;
+  line-height: $line-height-xxxl;
+}
+
+.question-section li h4 {
+  margin-top: 32px;
+  font-size:$font-size-md ;
+  line-height: $line-height-sm;
+  font-weight: $fw-bold;
+}
+
+.question-section li p {
+  width: 920px;
+  height: 72px;
+  margin-top: 16px;
+  padding-left: 96px;
+  line-height: $line-height-s;
+}

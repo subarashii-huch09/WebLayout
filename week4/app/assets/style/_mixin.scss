@@ -1,15 +1,12 @@
-// // image replace words -commonly use in logo
-// @mixin hide-text {
-//   text-indent:110%;
-//   white-space: nowrap;
-//   overflow: hidden;
-// }
+@mixin text-to-image ( $logo-url, $logo-width, $logo-height) {
+background-image: url ($logo-url);
+background-repeat:no-repeat;
+width: $logo-width;
+height: $logo-height;
+text-indent: 101%;
+white-space: nowrap;
+overflow: hidden;
+}
 
 
-// rwd 
-
-// @mixin pad {
-
-// }
-
-
+// later will add rwd e.g. @mixin pad
