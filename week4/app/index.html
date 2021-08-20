@@ -1,37 +1,48 @@
 ---
-title: 門市據點
+title: location-store-locator
 layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
 
+
 <div class="location-container">
   <h2 class="locator-sub-header">門市據點</h2>
 
-  <label for=""
-    >選擇分店
-    <input type="text" placeholder="台北中山旗艦店" />
-  </label>
+  <div class="location-selector">
+  <label>選擇分店</label>
+  <select>
+      <option value="">台北中山旗艦店</option>
+      <option value="">台北南西誠品店</option>
+      <option value="">台北遠百信義店</option>
+      <option value="">台北民權西路店</option>
+  </select> 
+  
+  </div>
+
 
   <div class="content-section">
     <div class="store-info">
-      <ul>
-        <li><img src="" alt="" /></li>
-        <li>
-          <h3></h3>
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week4/locate1.jpeg" width ="445" height ="224" alt="台北中山旗艦店" />
+          <h3>台北中山旗艦店</h3>
+        <ul class ="store-info-detail">
+          <li>
+            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week4/icon-phone-black.svg" alt="icon-store">
+            <a href="tel:+886-02-000-1234">電話：(02)000-1234</a>
+          </li>
+
+          <li>
+            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week4/icon-clock-black.svg" alt="icon-clock-black" >
+            <a href="#"></a>營業時間：10:00-21:00</a>
+          </li>
+          <li>
+          <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week4/icon-map.svg" alt="icon-map" />
+          <a href="#"></a>地址：台北市中山區南京東路25巷2-1號</a>
         </li>
-        <ul>
-          <img src="" alt="" />
-          <li><a href=""></a></li>
-          <img src="" alt="" />
-          <li><a href=""></a></li>
-          <img src="" alt="" />
-          <li><a href=""></a></li>
         </ul>
-      </ul>
     </div>
     <div class="store-map">
-      <img src="" alt="" />
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13308.58811873225!2d170.49837004578433!3d-45.86640603464856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa82eac6e4df29399%3A0xac25ccfc9a413dba!2sOtago%20Museum!5e0!3m2!1sen!2snz!4v1629468012217!5m2!1sen!2snz" width="635" height="460" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </div>
 </div>

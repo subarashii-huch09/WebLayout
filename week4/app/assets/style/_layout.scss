@@ -1,21 +1,22 @@
 .header {
   background-color: $dark-red;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 88px;
 }
 
 .logo {
-  text-indent: 101%;
-  white-space: nowrap;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  @include text-to-image ( $logo-width, $logo-height){
     background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/logo.png?raw=true);
-  };
-}
-.Nav_option{
+    width: $logo-width;
+    height: $logo-height;
+    background-repeat:no-repeat;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+.Nav_option {
   display: flex;
   justify-content: space-between;
 
@@ -24,21 +25,22 @@
   }
 
   a {
-  color: $white;
-  display: block;
-  font-size: $font-size-md;
-  line-height: $line-height-md;
-}
+    color: $white;
+    display: block;
+    font-size: $font-size-md;
+    line-height: $line-height-md;
+  }
 }
 
- 
 .footer {
   margin-top: 160px;
   background-color: $dark-red;
   padding-top: 32px;
   padding-bottom: 39px;
 
-  a, p, span {
+  a,
+  p,
+  span {
     color: $white;
   }
 }
@@ -52,67 +54,64 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .footer_nav-options {
+  display: flex;
+  align-items: center;
+
+  li {
+    margin-right: 48px;
+  }
+
+  a {
+    font-size: $font-size-s;
+    line-height: $line-height-s;
+  }
+}
+
+.socialMedia {
+  display: flex;
+  li {
+    margin-left: 32px;
+  }
+}
+
+.contact {
+  padding: 24px 0;
+  border-bottom: $white 1px solid;
+  margin-bottom: 33px;
+
+  a {
+    font-size: $font-size-xxl;
+    line-height: $font-size-xxl;
+  }
+
+  img {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 22px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+  }
+}
+
+.legality {
+  display: flex;
+  justify-content: space-between;
+
+  ul {
     display: flex;
-    align-items: center;
-
-    li {
-      margin-right: 48px;
-    }
-
-    a {
-      font-size: $font-size-s;
-      line-height: $line-height-s;
-    }
+  }
+  a {
+    margin-left: 48px;
+    font-size: $font-size-xs;
+    line-height: $line-height-xs;
   }
 
-  .socialMedia {
-    display: flex;
-    li {
-      margin-left: 32px;
-    }
+  p {
+    font-size: $font-size-s;
+    line-height: $line-height-s;
   }
-
-  .contact {
-    padding: 24px 0;
-    border-bottom: $white 1px solid;
-    margin-bottom: 33px;
-
-    a {
-      font-size: $font-size-xxl;
-      line-height: $font-size-xxl;
-    }
-
-    img {
-      display: inline-block;
-      width: 36px;
-      height: 36px;
-      margin-right: 22px;
-      margin-bottom:10px;
-      vertical-align: middle;
-    }
-  }
-
-  .legality {
-
-    display: flex;
-    justify-content: space-between;
-
-    ul {
-      display: flex;
-    }
-    a {
-      margin-left: 48px;
-      font-size: $font-size-xs;
-      line-height: $line-height-xs;
-    }
-
-    p {
-      font-size: $font-size-s;
-      line-height: $line-height-s;
-    }
-
-  }
+}

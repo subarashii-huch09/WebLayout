@@ -1,12 +1,1 @@
-@mixin text-to-image ( $logo-url, $logo-width, $logo-height) {
-background-image: url ($logo-url);
-background-repeat:no-repeat;
-width: $logo-width;
-height: $logo-height;
-text-indent: 101%;
-white-space: nowrap;
-overflow: hidden;
-}
-
-
 // later will add rwd e.g. @mixin pad

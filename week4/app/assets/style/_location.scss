@@ -1,11 +1,70 @@
 .location-container {
-  width: 1100px;
+  padding-top: 96px;
+  width: 1160px;
   margin: 0 auto;
+  
 }
 .locator-sub-header {
   font-size: $font-size-extra-l;
   line-height: $line-height-extra-l;
   font-weight: $fw-bold;
+  border-left: 8px solid #9F1213;
   padding-left: 16px;
-  border-left: 80x #9f1213 solid;
+  margin-bottom: 60px;
+}
+
+.location-selector label {
+  font-size: $font-size-lg;
+  line-height: $line-height-md;
+  margin-right: 22px;
+}
+
+.location-selector select {
+  width: 324px;
+  height: 45px;
+  font-size: 18px;
+  line-height: 26;
+  color: grey;
+  border: lightgray 1px solid;
+  margin-bottom: 32px;
+}
+
+.content-section {
+  display: flex;
+}
+
+.store-info{
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.store-info h3 {
+  font-size: $font-size-lg;
+  line-height: $line-height-lg;
+  padding: 8px 0 8px 24px;
+  border-right:1px solid lightgray;
+  border-left: 1px solid lightgray;;
+}
+
+.store-info-detail {
+  padding: 8px 0 8px 24px;
+  border: 1px solid lightgray;
+}
+.store-info-detail li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.store-info-detail img {
+  width: 21px;
+  height: 20px;
+  margin-right: 11px;
+}
+
+.store-info-detail a {
+  font-size: $font-size-md;
+  line-height: $line-height-md;
+
 }
